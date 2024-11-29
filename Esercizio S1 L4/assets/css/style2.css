@@ -1,0 +1,44 @@
+html{
+    font-size: 62,5%;
+}
+
+body{
+    font-family: "Parkinsans", serif;
+    font-size: 1rem;
+    background-image: url(../img/sfondo.png);
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+header{
+    text-align: center;
+    background-color: teal;
+    padding: 2rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+div img{
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    margin-top: 1rem;
+}
+
+header nav li a {
+    text-decoration: none;
+    color:white;
+
+
+
+}
+
+ul li a::before {
+    content: "->"
+}
+
+ul li a::after {
+    content: "<-"
+}
