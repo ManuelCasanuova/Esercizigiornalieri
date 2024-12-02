@@ -58,8 +58,10 @@ console.log("nella console verrà visualizzato 'null' ")
 console.log("***************************")
 
 console.log("5 Undefined -> Valore non assegnato ad una variavile, che quindi risulterà non definita da un valore. Esempio:");
-console.log(saluti_1);
+console.log("saluti_1");
 console.log("nella console verrà visualizzato undefinited")
+
+console.log("***************************")
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
