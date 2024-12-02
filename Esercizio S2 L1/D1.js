@@ -26,7 +26,7 @@ console.log(stringa);
 let numero= 10;
 let numero_1= 70;
 let numero_2= 15;
-let numero_3= "Questo numero è decimale"
+let numero_3= "<- Questo numero è decimale"
 console.log(numero*numero_1/numero_2+" "+numero_3);
 
 
