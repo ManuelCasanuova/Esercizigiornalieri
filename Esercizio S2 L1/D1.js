@@ -16,12 +16,12 @@ REGOLE
 
 I Datatype sono le tipologie di valori che possono essere visualizzati ed utilizzati nel linguaggio JS.
 
-/*Stringa -> Indica un singolo carattere o una sequenza di caratteri. Per la visualizzazione sulla console dell'inspect avremo un risultato come nell' esempio:*/
+/*  1 Stringa -> Valore composto dal singolo carattere o da una sequenza di caratteri. Esempio:*/
 
 let stringa= "Questa è una stringa";
 console.log(stringa);
 
-/*Numeri -> Indica un numero, può essere un numero intero o decimale. Per la visualizzazione sulla console dell'inspect avremo un risultato come nell' esempio::*/
+/*  2 Numeri -> Valore numerico, può essere un numero intero o decimale. Esempio::*/
 
 let numero= 10;
 let numero_1= 70;
@@ -30,8 +30,8 @@ let numero_3= "Questo numero è decimale"
 console.log(numero*numero_1/numero_2+" "+numero_3);
 
 
-/*Booleani -> I numeri Booleani, a differenza dei numeri su base 10 (decimali), si basano sui numeri binari (0 e 1). A 0 verrà assegnato il valore False (0), mentre ad 1 verrà assegnato il valore True (1)
-Per la visualizzazione sulla console dell'inspect avremo un risultato come nell' esempio:*/
+/*  3 Booleani -> Valore Boolean, a differenza dei numeri su base 10 (decimali), si basano sui numeri binari (0 e 1). A 0 verrà assegnato il valore False (0), mentre ad 1 verrà assegnato il valore True (1)
+Esempio:*/
 
 let boole= true;
 console.log(boole);
@@ -43,6 +43,18 @@ console.log(boole && boole_1);
 
 boole_1= true;
 console.log(boole && boole_1);
+
+/*  4 Null -> Valore indicato precedentemente in una variabile, ma che è stato "nascosto" intenzionalmente. Esempio: */
+
+let saluti= "Ciao";
+saluti=null;
+console.log(saluti);  /*nella console verrà visualizzato null*/
+
+
+/*  5 Undefined -> Valore non assegnato ad una variavile, che quindi risulterà non definita da un valore. Esempio:*/
+
+let saluti_1;
+console.log(saluti_1); /*nella console verrà visualizzato undefinited*/
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
