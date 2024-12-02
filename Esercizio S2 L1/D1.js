@@ -58,7 +58,7 @@ console.log("nella console verrà visualizzato 'null' ")
 console.log("***************************")
 
 console.log("5 Undefined -> Valore non assegnato ad una variavile, che quindi risulterà non definita da un valore. Esempio:");
-console.log("saluti_1");
+let saluti_1;
 console.log("nella console verrà visualizzato undefinited")
 
 console.log("***************************")
