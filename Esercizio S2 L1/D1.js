@@ -53,15 +53,16 @@ console.log("4 Null -> Valore indicato precedentemente in una variabile, ma che 
 let saluti= "Ciao";
 saluti=null;
 console.log(saluti);  
-console.log("nella console verrà visualizzato 'null' ")
+console.log("nella console verrà visualizzato 'null' ");
 
-console.log("***************************")
+console.log("***************************");
 
 console.log("5 Undefined -> Valore non assegnato ad una variavile, che quindi risulterà non definita da un valore. Esempio:");
 let saluti_1;
-console.log("nella console verrà visualizzato undefinited")
+console.log("saluti_1");
+console.log("nella console verrà visualizzato undefinited");
 
-console.log("***************************")
+console.log("***************************");
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
