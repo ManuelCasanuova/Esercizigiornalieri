@@ -12,16 +12,18 @@ REGOLE
 */
 
 
-/* SCRIVI QUI LA TUA RISPOSTA
+/* SCRIVI QUI LA TUA RISPOSTA*/
 
-I Datatype sono le tipologie di valori che possono essere visualizzati ed utilizzati nel linguaggio JS.
+console.log("I Datatype sono le tipologie di valori che possono essere visualizzati ed utilizzati nel linguaggio JS.");
 
-/*  1 Stringa -> Valore composto dal singolo carattere o da una sequenza di caratteri. Esempio:*/
+console.log("1 Stringa -> Valore composto dal singolo carattere o da una sequenza di caratteri. Esempio:")
 
 let stringa= "Questa è una stringa";
 console.log(stringa);
 
-/*  2 Numeri -> Valore numerico, può essere un numero intero o decimale. Esempio::*/
+console.log("**************************")
+
+console.log("2 Numeri -> Valore numerico, può essere un numero intero o decimale. Esempio:");
 
 let numero= 10;
 let numero_1= 70;
@@ -29,9 +31,9 @@ let numero_2= 15;
 let numero_3= "<- Questo numero è decimale"
 console.log(numero*numero_1/numero_2+" "+numero_3);
 
+console.log("***************************")
 
-/*  3 Booleani -> Valore Boolean, a differenza dei numeri su base 10 (decimali), si basano sui numeri binari (0 e 1). A 0 verrà assegnato il valore False (0), mentre ad 1 verrà assegnato il valore True (1)
-Esempio:*/
+console.log("3 Booleani -> Valore Boolean, a differenza dei numeri su base 10 (decimali), si basano sui numeri binari (0 e 1). A 0 verrà assegnato il valore False (0), mentre ad 1 verrà assegnato il valore True (1) Esempio:");
 
 let boole= true;
 console.log(boole);
@@ -39,22 +41,25 @@ let boole_1= false;
 console.log(boole_1);
 console.log(boole && boole_1);
 
-/*se boole_1 fosse "true":*/
+console.log("se boole_1 fosse 'true': vedi file .JS");
 
-boole_1= true;
-console.log(boole && boole_1);
+/*boole_1= true;
+console.log(boole && boole_1);*/
 
-/*  4 Null -> Valore indicato precedentemente in una variabile, ma che è stato "nascosto" intenzionalmente. Esempio: */
+console.log("***************************")
+
+console.log("4 Null -> Valore indicato precedentemente in una variabile, ma che è stato 'nascosto' intenzionalmente. Esempio:");
 
 let saluti= "Ciao";
 saluti=null;
-console.log(saluti);  /*nella console verrà visualizzato null*/
+console.log(saluti);  
+console.log("nella console verrà visualizzato 'null' ")
 
+console.log("***************************")
 
-/*  5 Undefined -> Valore non assegnato ad una variavile, che quindi risulterà non definita da un valore. Esempio:*/
-
-let saluti_1;
-console.log(saluti_1); /*nella console verrà visualizzato undefinited*/
+console.log("5 Undefined -> Valore non assegnato ad una variavile, che quindi risulterà non definita da un valore. Esempio:");
+console.log(saluti_1);
+console.log("nella console verrà visualizzato undefinited")
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -108,11 +113,9 @@ console.log(ilMioNome);
 
 /*
 ilMioNome="Casanuova";
-console.log("Casanuova") 
+console.log("Casanuova") */
 
-const ilMioNome è una variabile "costante" che non permette di essere variata da valori inseriti successivamente, infatti da console riceverò un messaggio:
-D1.js:90 Uncaught TypeError: Assignment to constant variable.
-*/
+console.log("const ilMioNome è una variabile 'costante' che non permette di essere variata da valori inseriti successivamente, infatti da console riceverò un messaggio: D1.js:90 Uncaught TypeError: Assignment to constant variable.");
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -129,12 +132,9 @@ console.log((numero_4+numero_5)-x)
 */
 
 
-
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let name1="john";
 let name2="John";
-let c= name1==name2;
-console.log(c);
-let d= name2.toLowerCase();
-console.log(name1===d);
+console.log(name1==name2);
+console.log(name1==name2 .toLowerCase());
