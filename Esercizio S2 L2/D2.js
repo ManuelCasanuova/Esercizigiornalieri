@@ -10,11 +10,15 @@ let x=29;
 let y=17;
 
 if (x>y) {
-      console.log("Il numero inserito in 'x' è più grande")
+      console.log("Il numero inserito in 'x'"+x+"è più grande")
+}
+
+else if(x=y){
+      console.log("I numeri inseriti sono uguali")
 }
 
 else{
-  console.log("Il numero inserito in 'y' è più grande")
+  console.log("Il numero inserito in 'y'"+y+"è più grande")
 }
 
 
@@ -153,7 +157,7 @@ let maggiore;
 
 if((a>=b)&&(a>=c)){
     maggiore=a;
-    
+
     if(b>=c){
       medio=b;
       minore=c;
@@ -308,7 +312,7 @@ console.log("******");
 
 console.log("Esercizio 13")
 
-delete me.skills([css])
+me.pop()
 
 console.log(me);
 
