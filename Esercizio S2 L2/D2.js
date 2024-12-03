@@ -33,8 +33,7 @@ console.log("******");
 console.log("Esercizio 2");
 
 
-
-if(x!=5){
+if(x!== 5){
   console.log("il numero fornito è diverso da 5")
 }
 
@@ -52,7 +51,7 @@ console.log("******");
 
 console.log("Esercizio 3");
 
-if (x%5==0){
+if (x%5===0){
   console.log("il numero fornito è divisibile per 5")
 }
 
@@ -73,7 +72,7 @@ console.log("Esercizio 4");
 let p=5;
 let j=3;
 
-if (p==8 || j==8){
+if (p==8 || j==8){  /*if(p===8 || j===8 || (p+j)===8 || p-j===8 || j-p====8)*/
    console.log("uno o più numeri forniti sono uguali ad 8")
 }
 else if ((p + j === 8) || (p - j === 8) || (j - p === 8)) {
@@ -103,13 +102,16 @@ console.log("Esercizio 5");
 let totalShoppingCart= 49
 
 
-if (totalShoppingCart>=50){
+if (totalShoppingCart>50){
   console.log("Hai diritto alla spedizione gratuita!")
+  
 }
 else if (totalShoppingCart+=10){
   console.log("Al prezzo dei prodotti saranno sommati €10 per la spedizione!")
-  console.log(totalShoppingCart)
+ 
 }
+
+console.log(totalShoppingCart)
 
 console.log("******");
 
@@ -122,7 +124,7 @@ console.log("******");
 
 console.log("Esercizio 6");
 
-totalShoppingCart= 49/1.25;
+totalShoppingCart= 49/1.25; /* oppure *0.8 */
 
 if (totalShoppingCart>=50){
   console.log(totalShoppingCart)
