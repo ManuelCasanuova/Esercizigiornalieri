@@ -288,11 +288,11 @@ console.log("******");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/*console.log("Esercizio 12");
+console.log("Esercizio 12");
 
-me.splice (1,1);
+delete me.lastName;
 
-console.log(me);*/
+console.log(me);
 
 
 console.log("******");
@@ -303,11 +303,13 @@ console.log("******");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/*console.log("Esercizio 13")
+console.log("Esercizio 13")
 
-me.splice (2,[css])
+delete me.skills([css])
 
 console.log(me);
+
+console.log("******");
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
