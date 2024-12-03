@@ -153,6 +153,7 @@ let maggiore;
 
 if((a>=b)&&(a>=c)){
     maggiore=a;
+    
     if(b>=c){
       medio=b;
       minore=c;
@@ -165,6 +166,7 @@ if((a>=b)&&(a>=c)){
 
 else if((b>=a)&&(b>=c)){
   maggiore=b;
+
     if(a>=c){
       medio=a;
       minore=c;
@@ -178,6 +180,7 @@ else if((b>=a)&&(b>=c)){
 
 else if((c>=a)&&(c>=b)){
   maggiore=c;
+
     if(b>=a){
       medio=b;
       minore=a;
