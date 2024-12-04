@@ -1,6 +1,4 @@
 
-
-
 const starWarsCharacters = [
   {
     name: 'Luke Skywalker',
@@ -142,15 +140,13 @@ console.log("****")
 
 console.log("Esercizio 4")
 
-let eyeColor =
-
+const eyeColor =
 {
     blue: [],
     yellow: [],
     brown: [],
     red: [],
     "blue-gray": [],
-
 }
 console.log("****")
 
@@ -163,20 +159,20 @@ for (let i = 0; i < starWarsCharacters.length; i++){
 switch (starWarsCharacters[i].eye_color)  {
 
   case "blue":
-  eyeColor.blue.push(starWarsCharacters[i]);
+  eyeColor.blue.push(starWarsCharacters[i]); break;
   
   case "yellow":
-  eyeColor.yellow.push(starWarsCharacters[i]);
+  eyeColor.yellow.push(starWarsCharacters[i]); break;
 
   case "brown":
-  eyeColor.brown.push(starWarsCharacters[i]);
+  eyeColor.brown.push(starWarsCharacters[i]); break;
 
   case "red":
-  eyeColor.red.push(starWarsCharacters[i]);
+  eyeColor.red.push(starWarsCharacters[i]); break;
 
   case "blue-gray":
-  eyeColor["blue-gray"].push(starWarsCharacters[i]);
- break;
+  eyeColor["blue-gray"].push(starWarsCharacters[i]); break;
+ 
  
 }
 }
@@ -190,8 +186,7 @@ console.log("Esercizio 6")
 
 let crewMass=0;
 let i=0;
-/*non inizializzo un'altra variabile contatatore, 
-utilizzo i che è già inizializzata a 0 nel FOR*/
+
 
 
 while (i<starWarsCharacters.length) {
@@ -207,15 +202,31 @@ console.log("****")
 
 console.log("Esercizio 7")
 
+if(crewMass<500){
+  console.log("Ship is under loaded")
+}
+else if (crewMass>=500 && crewMass<700){
+  console.log("ship is half loaded")
+}
+else if (crewMass>=700 && crewMass<900){
+  console.log("Warning: Load is over 700")
+}
+else if(crewMass>=900 && crewMass<1000){
+  console.log("Critical Load: Over 900")
+}
+else if(crewMass>=1000){
+  console.log("DANGER! OVERLOAD ALERT: escape from ship now!")
+}
+else{console.log("Error!!")}
+
 console.log("****")
 
 
 
 console.log("Esercizio 8")
 
-
-
 for(let i=0; i<starWarsCharacters.length;i++){
+  
   if (starWarsCharacters[i].gender==='n/a'){
      starWarsCharacters[i].gender="Robot";
   }
@@ -225,7 +236,7 @@ console.log(starWarsCharacters)
 console.log("Esercizio 9")
 
 console.log(charactersNames[i].name)
-
+console.log(femaleCharacters[i].name)
 
 for(let i=0; i<charactersNames;i++){
   if(charactersNames[i].name===femaleCharacters[i].name){
