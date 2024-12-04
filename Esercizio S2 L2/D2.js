@@ -314,7 +314,7 @@ console.log("******");
 
 console.log("Esercizio 13")
 
-me.pop()
+me.skills.pop();
 
 console.log(me);
 
