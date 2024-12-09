@@ -102,6 +102,29 @@ const starWarsCharacters = [
   },
 ]
 
+
+
+
+
+
+
+
+
+const pet= ['cane', 'gatto' , 'pesce']
+
+pet.sort();
+console.log(pet)
+
+pet.reverse();
+console.log(pet)
+
+let elemento= pet.pop();
+pet.unshift(elemento);
+console.log(pet)
+
+
+
+
 console.log("Esercizio 1")
 
 const charactersNames = []

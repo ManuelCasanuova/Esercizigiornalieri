@@ -35,7 +35,7 @@ function crazySum (){
      if(l1===l2) {
        let sum=(l1+l2)*3
        console.log("Il risultato è:"+ +sum);
-     }else {
+     } else {
         console.log("Il risultato è:" + +(l1+l2));
      }
 }
@@ -54,9 +54,20 @@ console.log("***")
 
 console.log("Esercizio 3")
 
+const crazyDiff= (num)=>{
+    if (num> 19) {
+        return Math.abs(num -19) * 3;
+    }
+    return Math.abs (num-19)
+}
+
+console.log(crazyDiff(14))
+
+console.log("******")
+
 let n=70 ;
 
-function crazyDiff() {
+/*function crazyDiff() {
     let diff = Math.abs(n - 19);
     if (n > 19) {
         return diff * 3;
@@ -93,16 +104,19 @@ console.log("***")
 console.log("Esercizio 4")
 
 
-function boundary(){
-    if (n>20 && n<=100){
-        console.log(true);
-    }else if (n=400){
-        console.log("il valore inserito è:"+ + n)
-    }
+function boundary(n){
+    if (n>20 && n<=100||n===400){
+        return (true+"il valore inserito è:"+ + n);
+    } else{
+
+    
+  return ("False")
+}
+    
 
 }
 
-boundary()
+console.log (boundary(4000))
 
 console.log("***")
 
