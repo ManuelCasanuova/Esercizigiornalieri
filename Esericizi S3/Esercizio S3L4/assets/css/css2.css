@@ -1,0 +1,37 @@
+main{
+    width: 790px;
+    margin: auto;
+
+}
+
+main h1{
+    text-align: center;
+}
+
+#main-board{
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+#main-board div.cell{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+main button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.estratto{
+    background-color: red;
+}
