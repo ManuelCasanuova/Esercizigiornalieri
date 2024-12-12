@@ -1,0 +1,89 @@
+
+
+body {
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(221,100,30,1) 64%, rgba(252,176,69,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ section {
+    
+    width: 80%;
+    margin: auto auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+header div{
+
+    margin: 2%;
+    padding: 10% 0;
+   
+
+}
+
+div #logo{
+    background-image: url("../TO-DO-LIST-LOGO.png");
+    background-position: center;
+    width: auto;
+    height: 150%;
+    margin: 1%;
+    vertical-align: center;
+    text-align: center;
+    border: solid 4px salmon;
+    
+}
+ 
+ input{
+    display: inline-block;
+    padding: 0.8em;
+    margin: 1em;
+    width: 50%;
+    border-radius: 1%;
+    border-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: salmon;
+
+    
+ }
+ 
+ 
+section button {
+    display: inline-block;
+    padding: 0.8em;
+    margin: 1em;
+    width: 50%;
+    border-radius: 1%;
+    border-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: salmon;
+    background-color: blueviolet;
+   
+}
+
+#lista ol .remove-button {
+    
+    width: 10%;
+    border-radius: 1%;
+    border-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+    color: wheat;
+    padding: 3%;
+    float: right;
+    
+}
+
+
+
+li {
+    border-bottom: 1px solid wheat; 
+    color: wheat;
+    font-size: 170%;
+    list-style: none;
+    text-transform: uppercase; 
+  
+
+}
+
