@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-//Cartella Giocatore
+/*//Cartella Giocatore
 
 
 let numeriCartella = []; // Array per tracciare i numeri già estratti
